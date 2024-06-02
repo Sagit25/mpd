@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    padding: 20px 0 0 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-title {
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .header-name {
+    justify-content: flex-end;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .header-line {
+    border: 0;
+    width: 100%;
+    height: 2px;
+    background: gray;
+  }
+  
+  .header-button {
+    justify-content: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }

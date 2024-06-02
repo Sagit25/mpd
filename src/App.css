@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.search-bar {
+.left-bar {
   width: 25%;
   height: 100vh;
   float: left;
@@ -31,6 +31,8 @@
 }
 
 .search-box {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
   position: relative;
   text-align: center;
   align-items: center;
